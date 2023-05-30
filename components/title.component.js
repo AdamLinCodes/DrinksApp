@@ -9,7 +9,7 @@ const Title = () => {
   return (
     <View style={styles.container}>
       <Image source={require('../assets/cocktail.png')} style={styles.image}/>
-      <Text style={styles.boldText}>Let's get a drink</Text>
+      <Text style={styles.boldText}>Let's Make A Drink! :)</Text>
     </View>
   )
 };
