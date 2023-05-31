@@ -36,12 +36,16 @@ const styles = StyleSheet.create({
     image: {
         width: 100,
         height: 100,
+        borderWidth: 2, // Border width in pixels
+        borderColor: 'blue',
     },
     container: {
         height: screenHeight * 0.5,
         width: screenWidth * 0.8,
         justifyContent: 'center',
         alignItems: 'center',
+        borderWidth: 2, // Border width in pixels
+        borderColor: 'red',
     },
 });
 

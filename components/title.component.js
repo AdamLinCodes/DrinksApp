@@ -19,15 +19,15 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 30,
 
-    // borderWidth: 2, // Border width in pixels
-    // borderColor: 'black',
+    borderWidth: 2, // Border width in pixels
+    borderColor: 'black',
   },
   image: {
     width: 100,
     height: 100,
 
-    // borderWidth: 2,
-    // borderColor: 'black',
+    borderWidth: 2,
+    borderColor: 'black',
   },
   container: {
     height: screenHeight * 0.3,
@@ -35,8 +35,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
 
-    // borderWidth: 2,
-    // borderColor: 'blue',
+    borderWidth: 2,
+    borderColor: 'blue',
   },
 });
 

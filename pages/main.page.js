@@ -1,9 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View, Dimensions } from 'react-native';
 
-import CustomButton from './button.component';
-import Title from './title.component';
-import DrinkCard from './drinkCard.component';
+import CustomButton from '../components/button.component';
+import Title from '../components/title.component';
 
 const screenWidth = Dimensions.get('window').width;
 const screenHeight = Dimensions.get('window').height;
@@ -18,19 +17,7 @@ const MainPage = () => {
         <CustomButton title="Drinks"/>
         <CustomButton title="Drinks"/>
       </View>
-      
 
-    </View>
-  );
-}
-
-const DrinkCardPage = () => {
-  return (
-    <View style={styles.container}>
-      <StatusBar style="auto" />
-
-      <DrinkCard></DrinkCard>
-      
     </View>
   );
 }
@@ -44,17 +31,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
 
-    // borderWidth: 2, // Border width in pixels
-    // borderColor: 'red',
+    borderWidth: 2, // Border width in pixels
+    borderColor: 'red',
   },
   buttonContainer: {
     height: screenHeight * 0.1,
     width: screenWidth * 0.8,
     flexDirection: 'row',
     justifyContent: 'center',
-    // borderWidth: 2, // Border width in pixels
-    // borderColor: 'green',
+    borderWidth: 2, // Border width in pixels
+    borderColor: 'green',
   }
 });
 
-export default DrinkCardPage;
+export default MainPage;
